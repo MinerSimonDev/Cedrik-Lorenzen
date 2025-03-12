@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Recipe Ingredients Extractor",
+  "version": "1.0",
+  "description": "Extracts recipe ingredients and directions from webpages",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "open-popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+R"
+      },
+      "description": "Open the Recipe Extractor popup"
+    }
+  }
+}
