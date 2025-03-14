@@ -11,7 +11,7 @@ The **Recipe Extractor** is a Chrome extension that automatically extracts ingre
 ## 📖 Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/recipe-extractor.git
+   git clone https://github.com/MinerSimonDev/cedrik-lorenzen.git
    ```
 2. **Enable Chrome Developer Mode:**
    - Go to `chrome://extensions/`
